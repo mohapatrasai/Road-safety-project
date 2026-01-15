@@ -1,5 +1,13 @@
-train: C:/Users/deepa/OneDrive/Desktop/Road_safety/images/train
-val: C:/Users/deepa/OneDrive/Desktop/Road_safety/images/val
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: <number_of_classes>   # e.g., 3
-names: ['helmet', 'no_helmet', 'person']  # replace with your class names
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: learning-evidence
+  project: helmet-detection_yolov8
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/learning-evidence/helmet-detection_yolov8/dataset/3
