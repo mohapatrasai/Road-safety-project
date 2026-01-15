@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Helmet"
+    },
+    {
+      "id": 1,
+      "name": "No Helmet"
+    },
+    {
+      "id": 2,
+      "name": "Numberplate"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

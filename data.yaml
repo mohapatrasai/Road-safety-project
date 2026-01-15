@@ -1,0 +1,5 @@
+train: C:/Users/deepa/OneDrive/Desktop/Road_safety/images/train
+val: C:/Users/deepa/OneDrive/Desktop/Road_safety/images/val
+
+nc: <number_of_classes>   # e.g., 3
+names: ['helmet', 'no_helmet', 'person']  # replace with your class names
